@@ -1,0 +1,14 @@
+{
+  "name": "link-scraper",
+  "version": "1.0.0",
+  "description": "Scrape anchor elements pointing to a target domain using Playwright headless browser",
+  "main": "scrape_links.js",
+  "scripts": {
+    "start": "node scrape_links.js",
+    "setup": "npx playwright install chromium"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "playwright": "^1.40.0"
+  }
+}
